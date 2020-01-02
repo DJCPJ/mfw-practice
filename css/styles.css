@@ -1,0 +1,107 @@
+body {
+    margin: 0 auto;
+    width: 100%;   
+}
+
+.nav-bar{
+    background-color:#ff8400;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    opacity: 0.9
+}
+
+.logo {
+    height: 100px;  
+    
+}
+
+.nav-list{
+    float: right;
+    padding-top: 20px;
+}
+
+.list-item{
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px groove #ffffff;
+    border-radius: 10px;
+    padding: 4px
+}
+
+.list-item:hover{
+    COLOR:#000000; TEXT-DECORATION: none; font-weight: none 
+}
+
+.main{ 
+    height: 1200px;
+    width: 100%;
+    background-image: url('/img/Point.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+    margin-top: 100px;
+}
+
+/* .hero {
+    width: 100vw;
+} */
+
+
+
+/*** Main Styles***/ 
+ .main-text  {
+    height:100px;
+    width: 240px;
+    background-color:#ff8400;
+    border:  3px solid;
+    position: absolute;
+    top: 250px;
+    left: 1100px;
+    text-align: center;
+    box-shadow 6px 6px;
+}
+
+
+}
+
+/*** Section Styles ***/
+  
+.sec-text p {
+    text-align: center; 
+    margin-top: 75px; 
+}
+
+/*** Footer Styles ***/
+
+.footer{
+    height: 70px;
+    width: 100%;
+    background-color:#ff8400;
+    opacity: .9;
+    
+    
+}
+
+
+
+.social {    
+display: inline-block;
+float: right; 
+}
+
+.fab {
+    color: black;
+    font-size: 35px; 
+}
+
+
+
+
+.copy p{
+    margin: 0;
+}
